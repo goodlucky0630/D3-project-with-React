@@ -1,0 +1,11 @@
+.drag-pointer {
+  display: none;
+}
+
+.drag-pointer.dragging {
+  display: block;
+}
+
+.slider {
+  cursor: pointer;
+}

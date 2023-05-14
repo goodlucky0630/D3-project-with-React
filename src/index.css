@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    font-family: Arial;
+    -webkit-font-smoothing: antialiased;
+    background-color: black; 
+  }
+
+  h1 {
+    @apply text-[20px] text-center mt-[7px] leading-[28px];
+  }
+
+  svg {
+    @apply overflow-visible;
+  }
+}
+
+.custom-radio {
+  outline-color: #d9d9d9;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: -2px;
+}
+
+.custom-radio.checked {
+  fill: #d9d9d9;
+}
